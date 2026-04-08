@@ -44,7 +44,7 @@ return data[ptr--];
        }
 
 
-    private boolean isFull() {
+    public boolean isFull() {
        return ptr ==data.length-1; // last index --> full stack
     }
     private boolean isEmpty(){
