@@ -1,5 +1,6 @@
 package com.example.DSA.java.Array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -30,13 +31,12 @@ public class MultiDimensionalArray {
             }
         }
         //output
+//        for (int row = 0; row < arr.length; row++) {// for each row
+//
+//            System.out.println(Arrays.toString(arr[row]));
 
-        System.out.println(arr.length);// give no.of rows
-        for (int row = 0; row < arr.length; row++) {// for each row
-
-            for (int col = 0; col < arr[row].length; col++) {
-                System.out.println(arr[row][col]+" ");
+        for (int[] arr1 : arr) {
+            System.out.println(Arrays.toString(arr1));
             }
         }
     }
-}
