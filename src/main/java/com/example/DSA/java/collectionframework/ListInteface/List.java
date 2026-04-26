@@ -1,10 +1,10 @@
-package com.example.DSA.java.collectionframework.List;
+package com.example.DSA.java.collectionframework.ListInteface;
 
 import java.util.ArrayList;
 
-public class List {  public static void main(String[] args) {
+public class  List {  public static void main(String[] args) {
     java.util.List<Integer> list = new ArrayList<>(); // ArrayLsit is Dynamic in nature
-    java.util.List<Integer> list2 = new ArrayList<>();// another List but of same type like Integer
+    java.util.List<Integer> list2 = new ArrayList<>();// another ListInteface but of same type like Integer
 
     list.add(10);
     list.add(20);

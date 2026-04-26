@@ -1,4 +1,4 @@
-package com.example.DSA.java.collectionframework.List;
+package com.example.DSA.java.collectionframework.ListInteface;
 
 import java.util.ArrayList;
 import java.util.Iterator;

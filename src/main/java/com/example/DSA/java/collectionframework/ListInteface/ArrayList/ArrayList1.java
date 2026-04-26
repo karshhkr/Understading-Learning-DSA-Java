@@ -1,8 +1,6 @@
-package com.example.DSA.java.collectionframework.List.ArrayList;
+package com.example.DSA.java.collectionframework.ListInteface.ArrayList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 import static java.lang.System.in;

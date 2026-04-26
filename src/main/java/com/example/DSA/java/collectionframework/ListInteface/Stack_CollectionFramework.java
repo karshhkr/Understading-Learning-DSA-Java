@@ -1,7 +1,5 @@
-package com.example.DSA.java.collectionframework.List;
+package com.example.DSA.java.collectionframework.ListInteface;
 import java.util.*;
-
-import static org.apache.logging.log4j.ThreadContext.pop;
 
 public class Stack_CollectionFramework {
     public static void main(String[] args) {

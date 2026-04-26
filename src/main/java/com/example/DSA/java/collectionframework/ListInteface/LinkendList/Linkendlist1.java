@@ -1,4 +1,4 @@
-package com.example.DSA.java.collectionframework.List.LinkendList;
+package com.example.DSA.java.collectionframework.ListInteface.LinkendList;
 
 
 import java.util.LinkedList;
@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Linkendlist1 {
     public static void main(String[] args) {
-        List<Integer> list2 = new LinkedList<>();// another List but of same type like Integer
+        List<Integer> list2 = new LinkedList<>();// another ListInteface but of same type like Integer
 
         list2.add(10);
         list2.add(20);
