@@ -44,17 +44,17 @@ public class MultiDimensionalArray {
             }
         }
         //output
-        for (int row = 0; row < arr.length; row++) {// for each row
-
-            System.out.println(Arrays.toString(arr[row]));
-        }
-
-
+//        for (int row = 0; row < arr.length; row++) {// for each row
+//
+//            System.out.println(Arrays.toString(arr[row]));
+//        }
 
 
-//        for (int[] arr1 : arr) {
-//            System.out.println(Arrays.toString(arr1));
-  //  }
+
+        // //// using enhanced for loop///////
+        for (int[] arr1 : arr) {
+            System.out.println(Arrays.toString(arr1));
+    }
             }
         }
 
