@@ -41,7 +41,7 @@ public class MaxElements {
 
     }
 
-    //find the min value from the elements
+    //find the min value from the elements from the array
     static  int minRange(int[] arr) {
         int min  = Integer.MAX_VALUE;
         for (int i = 0; i <arr.length; i++) {
