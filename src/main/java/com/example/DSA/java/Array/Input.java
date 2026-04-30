@@ -7,8 +7,15 @@ import java.util.Scanner;
 public class Input {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+///  yeh primitive hai toh yahan copy paass hoga not refernce of array
 
-//        //1. array for primitives
+
+       ///////// Array for primitives ////////////
+
+
+
+
+//        //1. Print the array using Primitives
 //        int[] arr=new int[3];
 //        arr[0]=23;
 //        arr[1]=32;
@@ -21,12 +28,22 @@ public class Input {
 ////            arr[i] = sc.nextInt();
 ////        }
 //
+
+
+
+
+
 //        // 2. using for each loop
 //      for(int nums:arr){ // for every element in array print the element
 //          System.out.println(nums);// nums rpresent the elements of array
 //      }
+
+
+
+
+
 //
-//      //3. using toString its an method which array has
+//      //3. using toString its an method which array has to convert Array into the string
 //
 //        System.out.println(Arrays.toString(arr));
 //
@@ -38,12 +55,19 @@ public class Input {
 
 
 
-// array of the Objects
-        String[] str =new String [5];
-        for(int i =0; i<=str.length; i++){
+///////////////          Array of the Objects     /////////////////////
+
+
+
+        String[] str =new String [5];// decalaration taking size of of 5 and dynamic memmory created in heap containg ref var of it in the memory
+        for(int i =0; i<str.length; i++){
             str[i]=sc.next();
         }
 
+        System.out.println(Arrays.toString(str));
+
+        //Modify the value over the ref var using the index
+        str[1]="Karshkr";
         System.out.println(Arrays.toString(str));
         }
 
