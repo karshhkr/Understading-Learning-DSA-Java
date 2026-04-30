@@ -3,10 +3,7 @@ package com.example.DSA.java.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-public class Swap {
+public class SwapAndReverse {
 
 
 
