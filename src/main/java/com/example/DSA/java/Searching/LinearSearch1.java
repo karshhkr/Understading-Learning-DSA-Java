@@ -31,7 +31,7 @@ int target =56; // not in the arry return -1 ;
          /////ran a loop
          for (int index = 0; index < arr.length; index++) {
              //check element of every index if the ==  target
-        int element= arr[index];
+        int element= arr[index]; // current index value stored in var element
         if (element == target){
             return index;
         }
