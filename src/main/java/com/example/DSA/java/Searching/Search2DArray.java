@@ -14,9 +14,10 @@ public class Search2DArray {
         System.out.println(Arrays.toString(ans));
 
         System.out.println(max(arr));
+        System.out.println(Integer.MIN_VALUE);
     }
 
-    ///
+    ///////Search in the 2D Array/////////////
      static int[] search(int[][] arr, int target ){
 for (int row=0; row<arr.length; row++){
     for(int col=0; col<arr[row].length;col++){
