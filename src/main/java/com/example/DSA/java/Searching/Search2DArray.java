@@ -12,6 +12,8 @@ public class Search2DArray {
          int target= 59;
           int[] ans = search(arr,target);
         System.out.println(Arrays.toString(ans));
+
+        System.out.println(max(arr));
     }
 
     ///
@@ -25,4 +27,20 @@ for (int row=0; row<arr.length; row++){
 }
 return new int[]{-1,-1};
      }
+
+
+
+/// /// return the max value///////////
+    static int max (int[][] arr){
+        int max=Integer.MIN_VALUE;
+        for (int row=0; row<arr.length; row++){
+            for(int col=0; col<arr[row].length;col++){
+                if (arr[row][col]>max){
+                   max=arr [row][col];
+
+                }
+            }
+        }
+        return max;
+    }
 }
