@@ -26,13 +26,28 @@ public class FindEvenDigits {
 
     static boolean even(int num) {
         int noOfDigits = digits(num);
-        if (noOfDigits %2== 0) { ///  checking its even or not
+   /*  if (noOfDigits %2== 0) { ///  checking its even or not
             return true;
         }
-        return false;
+        return false; */
+        return noOfDigits % 2 == 0;
     }
 
+
+    /// another way to return the nmber of the digits //////////
+    static int digits2(int num) {
+        return (int) Math.log10(num);
+    }
+
+
+
+
     static int digits(int num) {
+        if(num<0){
+            num=num*-1;
+
+        }
+
         int count = 0;
         while (num > 0) {
             count++;
