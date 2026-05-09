@@ -4,6 +4,7 @@ public class   BinarySearch1 {
     public static void main(String[] args) {
 int []arr={-18,-27,-19,2,3,4,18,19,57,88};
 int target=4;
+//int target=99;// elements is not present its sghould return -1
 int ans=binarySearch(arr,target);
         System.out.println(ans);
     }
@@ -32,6 +33,6 @@ int ans=binarySearch(arr,target);
             return mid;// elements not exist
         }
     }
-return Integer.MIN_VALUE;
+return -1;
     }
 }
