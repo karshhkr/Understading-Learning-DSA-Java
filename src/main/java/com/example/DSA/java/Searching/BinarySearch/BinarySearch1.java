@@ -1,4 +1,4 @@
 package com.example.DSA.java.Searching.BinarySearch;
 
-public class BinarySearch1 {
+public class   BinarySearch1 {
 }
