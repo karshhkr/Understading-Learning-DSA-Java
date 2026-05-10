@@ -19,7 +19,7 @@ int ans=binarySearch(arr,target);
     int end =arr.length-1;
     while(start<=end){
         // finding the middle
-//        int mid=(start+end)/2; // might be possible that (start+mid)exceeds the range of int in  Java
+//        int mid=(start+end)/2; // might be possible that (start+mid)exceeds the range of int in  Java integer Overflow
        int mid=start+(end-start)/2;
       if(target<arr[mid]){// target elements is less than the middle  elements so its in the left of the mid
            end=mid-1;
