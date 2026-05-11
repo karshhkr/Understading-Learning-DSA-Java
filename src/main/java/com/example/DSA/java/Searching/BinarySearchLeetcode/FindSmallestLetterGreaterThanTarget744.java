@@ -2,9 +2,12 @@ package com.example.DSA.java.Searching.BinarySearchLeetcode;
 //https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 public class FindSmallestLetterGreaterThanTarget744 {
     public static void main(String[] args) {
-
+char[] letters={'c','f','j'};
+char target='a';
+char ans= nextGreatestLetter( letters, target);
+System.out.println(ans);
     }
-    public char nextGreatestLetter(char[] letters, char target){
+    public  static char nextGreatestLetter(char[] letters, char target){
 
         {
 
