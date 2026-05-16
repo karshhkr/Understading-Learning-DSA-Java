@@ -5,7 +5,7 @@ import java.util.Arrays;
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array//
 public class FindFirstAndLastPositionElementInSortedArray34 {
     public static void main(String[] args) {
-int[] nums={5,7,7,8,8,9,10};
+int[] nums={5,7,7,7,7,78,8,9,10};
 int target=7;
 int[] ans= searchRange(nums,target);
         System.out.println(Arrays.toString(ans));
