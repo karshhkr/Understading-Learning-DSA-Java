@@ -1,26 +1,20 @@
 package com.example.DSA.java.Searching.BinarySearchLeetcode;
 
-public class FindRotationCountInRotatedSortedArray {
+public class findRotationinCountedArray {
     public static void main(String[] args) {
-        int []arr= {4,5,6,7,0,1,2  };
-        System.out.println(countRotaions(arr));
+        int []arr= {1,2,3,4,5,9,8,10  };
+        System.out.println(countRotations(arr));
+
+
     }
 
-    private static int  countRotaions(int[] arr) {
-int pivot=findpivot(arr);
-//if(pivot==-1){
-//    //array is not rotated
-//    return 0;
-//}
-return pivot +1;
+    private static int countRotations(int[] arr) {
+        int pivot=findPivot(arr);
+        // if array is rotated the pivot +1
+        return pivot+1;
     }
-
-
-
-    /// /// this will not Work for Duplicate Elements if the Start mid and End are Equal
-
-
-    static int findpivot ( int[] arr){
+        static int findPivot(int[]arr)
+        {
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
@@ -49,7 +43,7 @@ return pivot +1;
         }
         return -1;
     }
-
+///  Use This when The elements at Start, Mid, End  are not duplicates
     static int findpivotWithDuplicates ( int[] arr){
         int start = 0;
         int end = arr.length - 1;
@@ -100,4 +94,5 @@ return pivot +1;
         }
         return -1;
     }
-}
+    }
+
