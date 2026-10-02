@@ -8,7 +8,7 @@ public class PassinginFuction {
     public static void main(String[] args) {
 int[] nums={2,3,4,56,6};
         System.out.println(Arrays.toString(nums));
-        change(nums);// chamnging the value using this method change by pass nums into it
+        change(nums);// chamnging the value using this method change by pass nums IntroString it
         System.out.println(Arrays.toString(nums));
     }
     static  void change(int[] arr)  // change method

@@ -43,7 +43,7 @@ public class Input {
 
 
 //
-//      //3. using toString its an method which array has to convert Array into the string
+//      //3. using toString its an method which array has to convert Array IntroString the string
 //
 //        System.out.println(Arrays.toString(arr));
 //
