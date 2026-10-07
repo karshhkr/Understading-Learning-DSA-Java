@@ -2,8 +2,11 @@ package com.example.DSA.java.Recurrsion;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        System.out.println(fibonacci(4));
+        System.out.println(fibonacci(10));
     }
+   // static int fiboFormula(int n) {
+       //
+   //  }
     static int fibonacci(int n)
     {
         //base condition
