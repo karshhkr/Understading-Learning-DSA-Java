@@ -1,4 +1,4 @@
-package com.example.DSA.java.Recurrsion;
+package com.example.DSA.java.Recurrsion.Basics;
 
 public class BinarySearchInRecurssion {
     public static void main(String[] args) {

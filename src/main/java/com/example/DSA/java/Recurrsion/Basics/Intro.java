@@ -1,6 +1,4 @@
-package com.example.DSA.java.Recurrsion;
-
-import java.util.Scanner;
+package com.example.DSA.java.Recurrsion.Basics;
 
 public class Intro {
     public static void main(String[] args) {
